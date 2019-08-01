@@ -106,6 +106,9 @@ $sendLocationButton.addEventListener("click", () => {
 });
 
 socket.emit("join", { username, room }, error => {});
+
+const table = () => {};
+const features = () => {};
 // socket.on("countUpdated", count => {
 // 	console.log("The count has been updated!", count);
 // });
